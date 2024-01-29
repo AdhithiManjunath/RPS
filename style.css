@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    font-size: 30px;
+  
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+   border-radius: 50%;
+  
+
+
+}
+
+.choice{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+.choice:hover{
+  opacity: 0.5;
+  /* background-color: black; */
+  cursor: pointer;
+}
+
+.choose{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2rem;
+  
+}
+
+.score-table{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+p{
+  margin: 10px;
+
+}
+
+#user,#oppo{
+  font-size: 4rem;
+}
+
+.status{
+  margin-top: 3rem;
+  /* background-color: blue;
+  display: inline; */
+}
+
+#msg{
+  background-color: rgb(63, 63, 206);
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: large;
+  color: aliceblue;
+}
